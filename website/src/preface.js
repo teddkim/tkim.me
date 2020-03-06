@@ -4,7 +4,7 @@ const preface = () => {
   return (
     <div>
       <h2 className='ui center aligned icon header'>
-        <i className='circular users icon' />
+        <img className='circular icon' src='me.jpeg' />
         <div className='ui huge header'>Taehyun "Ted" Kim</div>
         <div className='sub header'>Worcester Polytechnic Institute</div>
         <div className='sub header'>Computer Science 19'</div>
