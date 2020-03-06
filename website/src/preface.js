@@ -4,7 +4,7 @@ const preface = () => {
   return (
     <div>
       <h2 className='ui center aligned icon header'>
-        <img className='circular icon' src='me.jpeg' />
+        <img className='ui circular image' alt='Ted' src={require('./images/me.jpeg')} />
         <div className='ui huge header'>Taehyun "Ted" Kim</div>
         <div className='sub header'>Worcester Polytechnic Institute</div>
         <div className='sub header'>Computer Science 19'</div>
