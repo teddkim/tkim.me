@@ -34,9 +34,11 @@ const project = () => {
             <p>• Evaluated the economic needs of wood product and tourism-based businesses in the Mohawk Trail Woodland Partnership on a team of three.</p>
             <p>• Validated sponsor’s $5 million business plans for Berkshire and Franklin counties. Recommend renewed and innovative programs.</p>
           </div>
+          <div className={`extra`}>
+            <div className={`ui label`}>Communication</div>
+          </div>
         </div>
       </div>
-
     </div>
   )
 }

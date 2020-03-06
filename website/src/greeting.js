@@ -1,4 +1,5 @@
 import React from 'react'
+import './greeting.css'
 
 const timeConfig = {
   morning: {
@@ -36,8 +37,7 @@ const Greeting = props => {
   const {text, iconName} = timeConfig[greeting]
 
   return (
-    <h2 className={`time-display ui center aligned icon header ${greeting}`}>
-      <i className={`${iconName} icon`} />
+    <h2 className={`time-display ui left aligned ${greeting}`}>
       {text}
     </h2>
   )
