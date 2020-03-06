@@ -3,6 +3,8 @@ import React from 'react'
 const experience = () => {
   return (
     <div className={`ui container divided items`}>
+      <div className={`ui large header`}>Experience</div>
+
       <div className={'item'}>
         <div className={'image'}>
           <img src='/images/wireframe/image.png' />
@@ -21,6 +23,29 @@ const experience = () => {
           <div className={`extra`}>
             <div className={`ui label`}>CMS</div>
             <div className={`ui label`}>HTML</div>
+          </div>
+        </div>
+      </div>
+
+      <div className={'item'}>
+        <div className={'image'}>
+          <img src='/images/wireframe/image.png' />
+        </div>
+        <div className={`content`}>
+          <a className={`header`}>Brigham and Women’s Hospital</a>
+          <div className={`meta`}>
+            <span className={`cinema`}>Worcester, MA</span>
+            <span className={`cinema right floated`}>Mar-Apr 2018</span>
+          </div>
+          <div className={`description`}>
+            <p>• Designed, developed, tested, and deployed pathfinding kiosk software using Java and Fxml as an Intern.</p>
+            <p>• Experienced in all phases of the Agile development cycle in a team of 1o persons.</p>
+            <p>• Focused on making user-friendly UI as well as testing and integrating different parts of codes using GitHub.</p>
+          </div>
+          <div className={`extra`}>
+            <div className={`ui label`}>FXML</div>
+            <div className={`ui label`}>Java</div>
+            <div className={`ui label`}>Agile Development</div>
           </div>
         </div>
       </div>
