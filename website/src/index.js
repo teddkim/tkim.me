@@ -26,9 +26,11 @@ class App extends React.Component {
         The time is: {this.state.time}
         <Preface />
         <Experience />
+        <br/>
         <Project />
         <br/>
         <Personal />
+        <br/>
       </div>)
   }
 }

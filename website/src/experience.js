@@ -7,7 +7,7 @@ const experience = () => {
 
       <div className={'item'}>
         <div className={'image'}>
-          <img src='/images/wireframe/image.png' />
+          <img alt='WPI' src={require('./images/WPI.jpeg')} />
         </div>
         <div className={`content`}>
           <a className={`header`}>Office Technical Assistant</a>
@@ -29,7 +29,7 @@ const experience = () => {
 
       <div className={'item'}>
         <div className={'image'}>
-          <img src='/images/wireframe/image.png' />
+          <img alt='Pathfinder' src={require('./images/Pathfind.png')} />
         </div>
         <div className={`content`}>
           <a className={`header`}>Brigham and Women’s Hospital</a>
@@ -52,7 +52,7 @@ const experience = () => {
 
       <div className={'item'}>
         <div className={'image'}>
-          <img src='/images/wireframe/image.png' />
+          <img alt='Morf3D' src={require('./images/Morf3d.png')} />
         </div>
         <div className={`content`}>
           <a className={`header`}>Intern</a>
