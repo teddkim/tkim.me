@@ -4,6 +4,7 @@ import Experience from './experience'
 import Project from './project'
 import Greeting from './greeting'
 import Preface from './preface'
+import Personal from './personal'
 
 class App extends React.Component {
   state = {time: new Date().toLocaleTimeString(), hour: new Date().getHours() };
@@ -26,6 +27,8 @@ class App extends React.Component {
         <Preface />
         <Experience />
         <Project />
+        <br/>
+        <Personal />
       </div>)
   }
 }
